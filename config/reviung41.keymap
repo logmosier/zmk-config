@@ -14,16 +14,16 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-// -------------------------------------------------------------------------------------
-// |  TAB |  Q  |  D  |  R  |  W  |  B  |   |  J  |  F   |  U  |  P  |  \  |   BKSP    |
-// |  DEL |  A  |  S  |  H  |  T  |  G  |   |  Y  |  N   |  E  |  O  |  I  |    =      |
-// | CTRL |  Z  |  X  |  M  |  C  |  V  |   |  K  |  L   |  ,  |  .  |  '  |    /      |
-//                         | ALT | LWR | SPC | RSE  | ALT |
+// ----------------------------------------------------------------------------------
+// |    |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |    DEL    |
+// |    |  _  |  +  |  {  |  }  | "|" |   | LFT | DWN |  UP | RGT |  `  |     ~     |
+// |    | ESC | GUI | ALT | CAPS|  "  |   | HOME| END | PGUP| PGDN| PRSC| SHFT(RET) |
+//                       |     |     | RET | ADJ |     |
                         bindings = <
-   &kp TAB   &kp Q &kp D &kp R &kp W &kp B   &kp J &kp F  &kp U     &kp P   &kp \    &kp BSPC
-   &kp DEL   &kp A &kp S &kp H &kp T &kp G   &kp Y &kp N  &kp E     &kp O   &kp I    &kp EQUAL
-   &kp LCTRL &kp Z &kp X &kp M &kp C &kp V   &kp K &kp L  &kp COMMA &kp DOT &kp SQT  &kp FSLH
-                        &kp LALT  &mo 1 &kp SPACE &mo 2  &kp RALT
+   &trans &kp EXCL  &kp AT      &kp HASH &kp DLLR &kp PRCNT      &kp CARET &kp AMPS &kp N8    &kp LPAR  &kp RPAR  &kp DEL
+   &trans &kp MINUS &kp KP_PLUS &kp LBRC &kp RBRC &kp PIPE       &kp LEFT  &kp DOWN &kp UP    &kp RIGHT &kp GRAVE &kp GRAVE
+   &trans &kp ESC   &kp LGUI    &kp LALT &kp CLCK &kp SQT        &kp HOME  &kp END  &kp PG_UP &kp PG_DN &kp PSCRN &mt RSHFT RET
+                                 &trans      &trans       &kp RET        &mo 3       &trans
                         >;
                 };
 
