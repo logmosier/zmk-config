@@ -71,7 +71,7 @@
    &trans &trans &kp C_VOL_DN &kp C_MUTE    &kp C_VOL_UP   &kp C_AC_UNDO         &trans  &kp HOME  &kp UP   &kp END   &trans &trans
    &trans &trans &kp C_PREV   &kp C_PP      &kp C_NEXT     &kp C_AC_REDO         &trans  &kp LEFT  &kp DOWN &kp RIGHT &trans &trans
    &trans &trans &kp C_AC_CUT &kp C_AC_COPY &kp C_AC_PASTE &kp ESC               &trans  &kp PG_UP &trans   &kp PG_DN &trans &trans
-                                            &trans         &mo ADJ       &trans  &LGUI &trans
+                                            &trans         &mo ADJ       &trans  &kp LGUI &trans
                         >;
                 };
                 
