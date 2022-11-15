@@ -21,7 +21,7 @@
 //                         | ALT | LWR | SPC | RSE  | ALT |
                         bindings = <
    &kp TAB   &kp Q &kp D &kp R &kp W &kp B   &kp J &kp F  &kp U     &kp P   &kp BSLH &kp DEL
-   &kp BSPC  &kp A &lt 1 S &kp H &kp T &kp G   &kp Y &lt 2 N  &kp E     &kp O   &kp I &kp EQUAL
+   &kp BSPC  &kp A &lt 2 S &kp H &kp T &kp G   &kp Y &lt 1 N  &kp E     &kp O   &kp I &kp EQUAL
    &kp LCTRL &kp Z &kp X &kp M &kp C &kp V   &kp K &kp L  &kp COMMA &kp DOT &kp SQT &kp BSLH
                         &kp LALT  &mt RSHFT SPACE &lt 3 SPACE &mt RSHFT RET  &kp RALT
                         >;
@@ -34,9 +34,9 @@
 // |    | ESC | GUI | ALT | CAPS|  "  |   | HOME| END | PGUP| PGDN| PRSC| SHFT(RET) |
 //                       |     |     | RET | ADJ |     |
                         bindings = <
-   &trans &kp EXCL  &kp AT      &kp HASH &kp DLLR &kp PRCNT      &kp CARET &kp AMPS &kp N8    &kp LPAR  &kp RPAR  &kp DEL
-   &trans &kp MINUS &kp KP_PLUS &kp LBRC &kp RBRC &kp PIPE       &kp LEFT  &kp DOWN &kp UP    &kp RIGHT &kp GRAVE &kp TILDE
-   &trans &kp ESC   &kp LGUI    &kp LALT &kp CLCK &kp DQT        &kp HOME  &kp END  &kp PG_UP &kp PG_DN &kp PSCRN &mt RSHFT RET
+   &kp TAB   &kp Q &kp N1 &kp N2 &kp N3 &kp B   &kp J &kp F  &kp EDUAL     &kp PLUS &kp BSLH &kp DEL
+   &kp BSPC  &kp N0 &kp N4 &kp N5 &kp N6 &kp G   &kp Y &kp N  &kp MINUS    &kp STAR &kp FSLH &kp EQUAL
+   &kp LCTRL &kp Z &kp N7 &kp N8 &kp N9 &kp V   &kp K &kp L  &kp COMMA &kp DOT &kp SQT &kp BSL2
                                  &trans      &trans       &kp RET        &mo 3       &trans
                         >;
                 };
