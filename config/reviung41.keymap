@@ -36,7 +36,7 @@
    &kp TAB   &kp Q &kp N1 &kp N2 &kp N3 &kp B   &kp J &kp F  &kp EDUAL     &kp PLUS &kp BSLH &kp DEL
    &kp BSPC  &kp N0 &kp N4 &kp N5 &kp N6 &kp G   &kp Y &kp N  &kp MINUS    &kp STAR &kp FSLH &kp EQUAL
    &kp LCTRL &kp Z &kp N7 &kp N8 &kp N9 &kp V   &kp K &kp L  &kp COMMA &kp DOT &kp SQT &kp BSLH
-                        &trans  &trans &trans &trans 2  &trans
+                        &trans  &trans &trans &trans &trans
                         >;
                 };
 
