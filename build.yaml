@@ -14,4 +14,4 @@
 ---
 include:
   - board: nice_nano
-    shield: reviung41
+    shield: 5way
